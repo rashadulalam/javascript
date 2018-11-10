@@ -8,3 +8,12 @@ const bigNumbers = numbers.map(number => {
 
 console.log(numbers);
 console.log(bigNumbers);
+
+// Excercise
+const animals = ['Hen', 'elephant', 'llam', 'ostrich', 'Whale', 'octopus', 'rabbit', 'lion', 'dog'];
+// iterate using .map(function);
+
+const secretMessage = animals.map( name => {
+	return name[0];
+})
+console.log(secretMessage.join(''));
