@@ -15,5 +15,12 @@ const animals = ['Hen', 'elephant', 'llam', 'ostrich', 'Whale', 'octopus', 'rabb
 
 const secretMessage = animals.map( name => {
 	return name[0];
-})
+});
 console.log(secretMessage.join(''));
+
+//create the smallNumbers bellow
+const bigNumberss = [100, 200, 300, 400, 500];
+const smallNumbers = bigNumberss.map(numberss => {
+	return numberss / 100;
+});
+console.log(smallNumbers);
